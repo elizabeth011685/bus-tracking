@@ -28,3 +28,16 @@ para poder mostrar el mapa.
 <li>Dar clic en el botón [2 Cargar Mapa], esto mostrará el mapa de la zona de Boston en caso de haber ingresado una APIKEY válida</li>
 <li>Dar clic en el botón [3 Mostrar Marcadores], esto mostrará los marcadores de los autobuses en el mapa previamente cargado</li>
 </ol>
+
+## Roadmap
+<hr />
+
+<ol>
+<li>Informar al usuario en caso de que la APIKEY ingresada no sea válida</li>
+<li>Tener opción de consultar otras zonas</li>
+</ol>
+
+## Licencia
+<hr />
+
+MIT Licence
