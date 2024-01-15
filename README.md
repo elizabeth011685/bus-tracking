@@ -3,7 +3,7 @@
 
 ## Descripción
 <hr />
-En este proyecto se pone en practica el consumo de apis para mostrar información de la posición de autobuses en un mapa 
+En este ejercicio se pone en practica el consumo de apis para mostrar información de la posición de autobuses en un mapa 
 de la zona de Boston
 
 ## Prerequisitos
