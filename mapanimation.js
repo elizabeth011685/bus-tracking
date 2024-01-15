@@ -1,12 +1,22 @@
 const markers = [];
-mapboxgl.accessToken =  "YOUR_MAPBOX_API_TOKEN_HERE";
+var map = ()=>{};
 
-const map = new mapboxgl.Map({
-    container: "map",
-    style: "mapbox://styles/mapbox/streets-v11",
-    center: [-71.104081, 42.365554],
-    zoom: 10,
-});
+mapboxgl.accessToken =  "YOUR_MAPBOX_TOKEN_HERE";
+
+async function cargarMapa()
+{
+    mapboxgl.accessToken = document.getElementById("api_key").value;
+    map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [-71.101, 42.358],
+        zoom: 10,
+    });
+    document.getElementById("button_map").disabled = true;
+    document.getElementById("button").disabled = false;
+
+}
+
 
 async function run() {
     const locations = await getBusLocations();
